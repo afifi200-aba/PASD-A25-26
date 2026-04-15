@@ -2,24 +2,23 @@
 #include <string>
 using namespace std;
 
+typedef int angka;
+typedef float pecahan;
+typedef char huruf[30];
 int main(){
-//Deklarasi struktur
-struct MATAKULIAH		{
-	string nama;
-	int sks;
-	char nHuruf;
-	float nAngka;	};
-//Pendefinisian struktur 
-MATAKULIAH Data_MK;
-//pengaakasaan anggota struktur
-Data_MK.nama = "Algoritma dan pemrograman 2";
-Data_MK.sks = 3;
-Data_MK.nHuruf = 'A';
-Data_MK.nAngka = 4.00;
-cout<<endl;
-cout<<endl;
-cout<< "Mata Kuliah = " << Data_MK.nama<< endl;
-cout<< "jumlah sks	= " << Data_MK.sks << endl;
-cout<< "Nilai		= " << Data_MK.nHuruf << endl;
-cout<< "Indeks		= " << Data_MK.nAngka << endl;
-cin.get(); 	}
+		angka umur;
+		pecahan pecah;
+		huruf nama;
+		huruf karakter;
+		cout << "masukkan umur anda		:" ;cin>>umur;
+		cout << "umur anda adalah "<< umur<<endl;
+		cout << endl;
+		cout << "masukkan bilangan pecahan : ";cin>>pecah;
+		cout << "Bilangan pecahan "<<pecah<<endl;
+		cout << endl;
+		cout << "masukkan nama			:" ;cin>>nama;
+		cout << "nama anda	"<<nama<<endl;
+		cout << endl;
+		cout <<"masukkan satu huruf		: ";cin>>karakter;
+		cout << "Huruf anda " << karakter<< endl;
+cin.get();	}
