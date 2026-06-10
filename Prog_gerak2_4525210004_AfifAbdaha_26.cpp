@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-const double g04 = 9.8; // m/s2
+const double g04 = 9.8; 
 
 int main() {
     int pilihan04;
